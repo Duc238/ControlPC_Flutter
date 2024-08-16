@@ -26,7 +26,7 @@ namespace API.Controllers
         [HttpPost("OpenNotpad")]
         public IActionResult OpenNotpad()
         {
-            // Thực hiện lệnh khởi động lại máy
+            // Thực hiện lệnh mở ứng dụng
             Process.Start("notepad");
             return Ok();
         }
